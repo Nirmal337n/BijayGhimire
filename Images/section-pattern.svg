@@ -1,0 +1,77 @@
+<svg width="420" height="420" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bubbleSoft" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="0.4" stop-color="#ffd27d" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffd27d" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bubbleSoftBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="0.4" stop-color="#8ec1ff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#8ec1ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="420" height="420" fill="none" />
+
+  <g opacity="0.8">
+    <circle cx="60" cy="430" r="12" fill="url(#bubbleSoft)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -160" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="24s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="410" r="10" fill="url(#bubbleSoftBlue)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -150" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="22s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="240" cy="420" r="11" fill="url(#bubbleSoft)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -155" dur="26s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="26s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="320" cy="415" r="9" fill="url(#bubbleSoftBlue)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -150" dur="23s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="23s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="380" cy="430" r="10" fill="url(#bubbleSoft)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -160" dur="25s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;1;0" dur="25s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g opacity="0.6">
+    <circle cx="40" cy="360" r="6" fill="url(#bubbleSoftBlue)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -130" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="130" cy="350" r="5" fill="url(#bubbleSoft)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -120" dur="19s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0" dur="19s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="210" cy="365" r="6" fill="url(#bubbleSoftBlue)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -125" dur="21s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0" dur="21s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="290" cy="355" r="5" fill="url(#bubbleSoft)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -130" dur="22s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0" dur="22s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="360" cy="360" r="6" fill="url(#bubbleSoftBlue)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -125" dur="20s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;1;0" dur="20s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g fill="#ffd27d">
+    <circle cx="80" cy="260" r="1.6">
+      <animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="340" cy="240" r="1.8">
+      <animate attributeName="opacity" values="0;1;0" dur="5.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="140" cy="300" r="1.4">
+      <animate attributeName="opacity" values="0;1;0" dur="6.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="310" cy="310" r="1.6">
+      <animate attributeName="opacity" values="0;1;0" dur="5.1s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
